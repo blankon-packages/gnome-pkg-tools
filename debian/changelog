@@ -1,4 +1,10 @@
-gnome-pkg-tools (0.19.4blankon1) tambora; urgency=medium
+gnome-pkg-tools (0.19.4blankon2) tambora; urgency=low
+
+  * Depends: drop dh-translations 
+
+ -- Mahyuddin <yudi.al@gmail.com>  Sun, 31 May 2015 18:21:01 +0700
+
+gnome-pkg-tools (0.19.4blankon1) tambora; urgency=low
 
   * Merge with Ubuntu 
 
