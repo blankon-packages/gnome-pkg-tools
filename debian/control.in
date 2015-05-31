@@ -1,0 +1,30 @@
+Source: gnome-pkg-tools
+Section: devel
+Priority: optional
+Maintainer: BlankOn Developers <blankon-dev@googlegroups.com>
+XSBC-Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: @GNOME_TEAM@
+Build-Depends: cdbs,
+               debhelper (>= 9)
+Build-Depends-Indep: xmlto
+Standards-Version: 3.9.5
+Vcs-Svn: svn://anonscm.debian.org/pkg-gnome/tools/gnome-pkg-tools
+Vcs-Browser: http://anonscm.debian.org/viewvc/pkg-gnome/tools/gnome-pkg-tools/
+
+Package: gnome-pkg-tools
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends},
+         dh-translations,
+         python-scour,
+         python3,
+         python3-gi,
+         gir1.2-glib-2.0
+Suggests: svn-buildpackage
+Multi-Arch: foreign
+Description: Tools for the Debian GNOME Packaging Team
+ This package contains some useful tools for the Debian GNOME Packaging Team
+ including:
+   * Documentation.
+   * The list of team members.
+   * A number of rules files for CDBS that are helpful for GNOME 
+     packages - but may also be useful for others.
