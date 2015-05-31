@@ -1,3 +1,9 @@
+gnome-pkg-tools (0.19.4blankon3) tambora; urgency=medium
+
+  * Re-add dh-translations in depends 
+
+ -- Mahyuddin <yudi.al@gmail.com>  Sun, 31 May 2015 18:36:01 +0700
+
 gnome-pkg-tools (0.19.4blankon2) tambora; urgency=low
 
   * Depends: drop dh-translations 
